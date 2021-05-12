@@ -1,0 +1,10 @@
+Dear ${PERSON_NAME}, 
+
+Mark your attendance within the next 10 minutes!
+Your time begins at PERSON_START_TIME and will end at PERSON_END_TIME.
+
+Your OTP is PERSON_OTP.
+Your class code is CLASS_CODE.
+
+Yours Truly,
+The People at MarkYourAttendance

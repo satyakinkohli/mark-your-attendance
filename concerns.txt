@@ -1,0 +1,7 @@
+LOGIC:
+1. no shuffling of rows of students in inputted csv file
+
+CODE:
+1. file path is absolute, must change to relative before pushing to github
+2. hash/encrypt OTPs
+3. Only modify P/A in formatted output file

@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attendance</title>
+
+    <style>
+        html, body {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #page-heading {
+            width: 100%;
+            height: 100%;
+            text-align:center;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="page-heading">
+    <form action="/markAttendance" method="POST">
+        <input required type="name" name="name" placeholder="Name">
+        <input required type="email" name="email" placeholder="Email">
+        <input required type="number" name="otp" placeholder="OTP">
+        <input required type="text" name="class_code" placeholder="Class Code">
+        <input type="submit">
+    </form>
+</div>
+
+</body>
+</html>
+{% endblock %}

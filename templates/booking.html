@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<!doctype html>
+<html>
+  <style>
+
+  </style>
+  <head>
+    <title>Booking</title>
+  </head>
+  <body>
+    <h1>Booking Class</h1>
+    <form action="bookClass" method="POST" enctype="multipart/form-data">
+      <p><input type="file" name="file"></p>
+      <p><input type="submit" value="Submit"></p>
+    </form>
+    <img src="{{url_for('static', filename='example.png')}}">
+  </body>
+</html>
+{% endblock %}
