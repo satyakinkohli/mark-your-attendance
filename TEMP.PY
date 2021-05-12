@@ -12,6 +12,7 @@ import time
 import datetime
 import sqlite3
 
+
 def generateString():
     S = 10
     random_string = "".join(random.choices(string.ascii_uppercase + string.digits, k=S))
