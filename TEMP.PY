@@ -26,7 +26,8 @@ def updating_sql_file(filename, email):
         try:
             random_code = generateString()
             cur.execute(
-                "INSERT INTO class__list__mapping (input_file, class_code, output_file, instructor_email, date_added) values (?, ?, ?, ?, ?)",
+                "INSERT INTO class__list__mapping (input_file, class_code, output_file, instructor_email, date_added) "
+                "values (?, ?, ?, ?, ?)",
                 (
                     filename,
                     random_code,
